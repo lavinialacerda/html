@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f3e4ee;
+    color: #e2428fcd;
+    background-image: url("img5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: Pacifico, cursive;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+p {
+    font-family: Pacifico, cursive;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+main {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px 16px;
+}
+
+.card {
+    background-color: #fff;
+    border: 2px solid #e2428fcd;
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-bottom: 12px;
+}
+
+#promo-do-dia {
+    background-color: #e2428fcd;
+    color: #fdefef;
+    border:none;
+    text-align: center;   
+}
+
+.destaque {
+    background-color: #f8cbcb;
+    border-color: 2px solid #c54d4d;
+    color: #e0178f;
+}
+
+.esgotado {
+    opacity: 0.5;
+}
+
+.esgotado h4 {
+    text-decoration: line-through;
+}
+
+h4 {
+   text-align: center;
+   font-size: 1.3rem;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    text-align: center;
+}
