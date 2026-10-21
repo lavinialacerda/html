@@ -13,16 +13,17 @@
   <p>Campos marcados com * são obrigatórios.</p>
 
   <!-- action: para onde os dados vão | method: como eles vão -->
- <form action="https://formsubmit.co/lavinia.primo@edu.senai.br" method="post">
+    <form action="https://formsubmit.co/lavinia.primo@edu.senai.br" method="POST">
 
-  <!-- Campos ocultos: configuram o FormSubmit e não aparecem na tela -->
-  <input type="hidden" name="_subject" value="Nova reserva de mesa — Grão Dourado">
-  <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_subject" value="Nova reserva de mesa — Grão Dourado">
+    <input type="hidden" name="_template" value="table">
 
-  <!-- ... o resto do formulário continua igual ... -->
+    <!-- TODOS os campos do formulário ficam aqui -->
+
+    <button class="btn-enviar" type="submit">Reservar mesa</button>
+    <button class="btn-limpar" type="reset">Limpar</button>
 
 </form>
-
     <!-- GRUPO 1: dados da pessoa -->
     <fieldset>
       <legend>Seus dados</legend>
